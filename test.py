@@ -1,4 +1,9 @@
-def fn(a, b, c, d):
-    print(a + b + c + d)
 
-fn(1,2,3,4)
+def hello():
+    global x
+    x = 7
+    print("x in func =", x)
+
+hello()
+x=23
+print("x after func =", x)
